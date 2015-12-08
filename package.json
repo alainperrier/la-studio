@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-modernizr": "0.0.0",
+    "laravel-elixir-imagemin": "^0.2.3"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.0.0",
+    "jquery.browser": "^0.1.0",
+    "laravel-elixir": "^4.0.0",
+    "laravel-elixir-sass-compass": "^0.4.0",
+    "normalize-scss": "^4.0.3"
+  }
+}

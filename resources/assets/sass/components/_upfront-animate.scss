@@ -1,0 +1,53 @@
+/* Animations */
+
+.Upfront__animate{
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.Upfront__animate-first{
+	animation-name: displayFromTheRight;
+}
+
+.Upfront__animate-second{
+	animation-delay: 1s;
+	animation-name: displayFromTheLeft;
+}
+
+.Upfront__animate-third{
+	animation-delay: 2s;
+	animation-name: displayFromTheRight;
+}
+
+.Upfront__animate-fourth{
+	animation-delay: 3s;
+	animation-name: displayFromTheLeft;
+}
+
+.Upfront__animate-fifth{
+	animation-delay: 4s;
+	animation-name: displayFromTheRight;
+}
+
+@keyframes displayFromTheRight {
+    from {
+    	margin-right: -100px;
+    	opacity: 0;
+	}
+    to {
+    	margin-right: 0;
+    	opacity: 1;
+    }
+}
+
+@keyframes displayFromTheLeft {
+    from {
+    	margin-left: -100px;
+    	opacity: 0;
+	}
+    to {
+    	margin-left: 0;
+    	opacity: 1;
+    }
+} 

@@ -1,0 +1,32 @@
+.image{
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-left{
+	justify-content: flex-start;
+}
+
+.flex-center{
+	justify-content: center;
+}
+
+.flex-right{
+	justify-content: flex-end;
+}
+
+.flex-space-around{
+	justify-content: space-around;
+}
+
+.flex-space-between{
+	justify-content: space-between;
+}
+
+.antiflex-right{
+	margin-left: auto;
+}
+
+.antiflex-left{
+	margin-right: auto;
+}

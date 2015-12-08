@@ -1,0 +1,117 @@
+/* Upfront global setup */
+
+.Upfront{
+	width: 100vw;
+	height: 50vh;
+	max-width:100%;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-right: 7.5vw;
+	padding-left: 7.5vw;
+}
+
+
+/* Upfront Item (Media + Content) */
+
+.Upfront__item{
+	display: flex;
+	align-items: center;
+	opacity: 0;
+}
+
+/* Upfront Media */
+
+.Upfront__media{
+	margin-right: 3vw;
+	margin-left: 3vw;
+}
+
+.Upfront__photo{
+	min-width: 0;
+}
+
+/* Upfront Content */
+
+.Upfront__content{
+	text-align: center;
+}
+
+.Upfront__title{
+	font-family: 'New cicle Bold';
+	font-weight: bold;
+	font-style: bold;
+	text-transform: uppercase;
+	font-size: 4.5rem;
+}
+
+.Upfront__text{
+	font-family: 'New cicle Light';
+	font-weight: normal;
+	font-size: 2rem;
+}
+
+.Upfront__name{
+	font-size: 3rem;
+}
+
+.Upfront__position{
+	font-size: 1.5rem;
+}
+
+.Upfront__link{
+	font-size: 1.5rem;
+	color: $blueFlash;
+}
+
+.Upfront__social{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.Upfront__icon{
+	width:60px;
+	height:60px;
+}
+
+.Upfront__link:active{
+	color: $lightBlue;
+}
+
+/* Specifics Upfront */
+
+.Upfront--first{
+	height: 40vh;
+	background: $darkGrey;
+	color: white;
+	padding-bottom: 7.5vh;
+}
+
+.Upfront--second{
+	height: 0vh;
+	background: inherit;
+	padding-top: 15vh;
+}
+
+.Upfront--third{
+	height: 60vh;
+	background: $lightGrey;
+	color: black;
+	padding-top: 10vh;
+}
+
+.Upfront--fourth{
+	height: 10vh;
+	background: inherit;
+	padding-top: 15vh;
+}
+
+.Upfront--fifth{
+	background: $blueGreen;
+	color: white;
+	padding-top: 20vh;
+}
