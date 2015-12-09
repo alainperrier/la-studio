@@ -1,11 +1,15 @@
 $( document ).ready(function() {
-    if ($.browser.msie ||  $.browser.msedge ||  $.browser.msedge)
+
+	/* IE Detection and adaptation */
+
+    if ($.browser.msie ||  $.browser.msedge)
     {
     	$('.Upfront').removeAttr('style');
     	$('.Upfront--first, .Upfront--second, .Upfront--third, .Upfront--fourth, .Upfront--fifth').css({
-    		height: "20vh",
+    		height: "33vh",
     		paddingTop: 0,
     		paddingBottom: 0
     	});
     }
+
 });
